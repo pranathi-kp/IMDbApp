@@ -1,0 +1,417 @@
+.App {
+  text-align: center;
+  position: relative;
+}
+
+.App .LoginMaster {
+  position: relative;
+}
+
+.App .LoginMaster .Logo {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  width: 100px;
+  height: 60px;
+}
+
+.App .LoginMaster .Login {
+  position: relative;
+  top: 40px;
+  left: 40px;
+  max-width: 350px;
+  margin: auto;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.App .LoginMaster .Login h2 {
+  text-align: center;
+}
+
+.App .LoginMaster .Login form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.App .LoginMaster .Login .input-container {
+  position: relative;
+  margin-bottom: 16px;
+}
+
+.App .LoginMaster .Login .input-container label {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  color: #333;
+  pointer-events: none;
+  transition: top 0.3s, font-size 0.3s;
+}
+
+.App .LoginMaster .Login .input-container input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.App .LoginMaster .Login .input-container input:focus {
+  box-shadow: 0 0 5px #01ade7;
+  outline: 1px solid #5474a8;
+}
+
+.App .LoginMaster .Login button {
+  background-color: #01ade7;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.App .LoginMaster .Login button:hover {
+  background-color: #5474a8;
+  cursor: pointer;
+}
+
+.App .LoginMaster .Login .input-container input:focus + label,
+.App .LoginMaster .Login .input-container input:not(:placeholder-shown) + label {
+  top: -18px;
+  font-size: 12px;
+}
+
+.App .LoginMaster .already{
+  box-sizing: border-box;
+  position: relative;
+  top: 40px;
+  padding: 10px;
+}
+
+.movie-container {
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.movie-card {
+  box-sizing: border-box;
+  flex: 0 0 300px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.movie-card:hover {
+  transform: scale(1.05);
+}
+
+.movie-card img {
+  width: 80%;
+  height: 200px; /* Adjust as needed */
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.genre{
+  font-size: 20px;
+  color: #02302e;
+}
+
+.description{
+  width: 100%;
+}
+
+.profile-container {
+  margin-top: 16px;
+}
+
+.profile-details {
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  padding: 16px;
+  border-radius: 8px;
+  margin-top: 8px;
+}
+
+
+.App .navbar {
+  margin-top: 0;
+  box-sizing: border-box;
+  background-color: #333;
+  width: 100%;
+  height: 4vw;
+  margin: auto;
+  display: flex;
+  margin-bottom: 2vw;
+}
+
+.App .navbar .name{
+  margin: auto;
+  margin-left: 10vw;
+  height: 2vw;
+  width: 5vw;
+  border-radius: 10%;
+  background-color: #f5c518;
+  font-size: 20px;
+  color: black;
+}
+
+.App .navbar .nav-list {
+  box-sizing: border-box;
+  width:100%;
+  list-style: none;
+  display: flex;
+  align-items:flex-end;
+  position: relative;
+}
+
+
+.App .navbar .nav-list .input-container{
+  margin: auto 0;
+}
+
+.App .navbar .input-container select {
+  box-sizing: border-box;
+  height: 2vw;
+  width: 5vw;
+  border-radius: 5px;
+  font-size: 18px;
+  margin: auto;
+  cursor: pointer;
+  vertical-align: middle;
+  
+}
+
+
+  .App .navbar .input-container option{
+    font-size: 18px;
+    cursor: pointer;
+    margin: auto;
+    padding: 0;
+  }
+
+ 
+
+  .App .navbar .nav-list .btn{
+    /* box-sizing: border-box;
+    height: 30px;
+    width: 80px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    padding-bottom: -25px;
+
+    margin-left: 30px; */
+    
+    box-sizing: border-box;
+    height: 25px; /* Adjust the height */
+    width: 80px;  /* Adjust the width */
+    font-size: 18px; /* Adjust the font size */
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 30px;
+    
+    /* Center the text both horizontally and vertically */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    /* Adjust line height for vertical alignment */
+    line-height: 50px;
+    
+    /* Center the text horizontally */
+    text-align: center;
+    
+   
+  }
+
+
+  .App .navbar .nav-list input{
+    padding-left: 10px;
+    margin:0px 20px;
+    box-sizing: border-box;
+    height: 2vw;
+    width: 40vw;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 150px;
+    
+  }
+
+.App .navbar .nav-list .nav-item {
+  box-sizing: border-box;
+  padding: 0.2vw;
+  padding-right: 10px;
+}
+
+.App .navbar .nav-list .user{
+  color: white;
+  box-sizing: border-box;
+  margin: auto;
+  font-size: 30px;
+  cursor: pointer;
+  
+}
+
+.App .navbar .nav-list .nav-item .link{
+  text-decoration: none;
+  color: white;
+  font-size: large;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.App .navbar .nav-list .nav-item button{
+  background-color: #333;
+  text-decoration: none;
+  color:white;  
+  font-size: large;
+  margin: auto;
+  padding: 0;
+}
+
+.active-link {
+  color: #ffcc00;
+}
+
+
+
+.admin-form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-container {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  max-width: 400px;
+  width: 100%;
+}
+
+.input-container {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+input:focus {
+  box-shadow: 0 0 5px #01ade7;
+  outline: 1px solid #5474a8;
+}
+
+button {
+  color: rgb(8, 8, 8);
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #5474a8;
+  cursor: pointer;
+}
+
+
+.input-container input:focus + label,
+.input-container input:not(:placeholder-shown) + label {
+  top: -18px;
+  font-size: 12px;
+}
+
+.back-button-container {
+  margin-top: 20px;
+}
+
+.back-button-container button {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.back-button-container button:hover {
+  background-color: #555;
+  cursor: pointer;
+}
+
+.App .navbar .nav-list .profile-container{
+position: absolute;
+width: 20vw;
+height: 30vw;
+top: 0;
+right:1vw;
+}
+
+/* .App .navbar .nav-list .profile-container .arrow{
+  width: 1vw;
+  height: 1vw;
+  background-color: #333;
+  position: absolute;
+  top: 0;
+right:1vw;
+} */
+
+.App .navbar .nav-list .profile-container .user-profile .profile-container .profile-details{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  cursor: pointer;
+  background-color: #333;
+}
+
+.App .navbar .nav-list .profile-container .user-profile .profile-container .profile-details p{
+  color: white;
+  font-size: 15px;
+}
+
+
+.App .navbar .nav-list .profile-container .user-profile .profile-container .profile-details h2{
+  color: white;
+  font-size: 20px;
+}
+
+.review-form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ccc;
+  width: 20%;
+  margin: auto;
+  border-radius: 2%;
+  padding-bottom: 1vw;
+}

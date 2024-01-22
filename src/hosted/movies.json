@@ -1,0 +1,172 @@
+{
+  "movies": [
+    {
+      "title": "Salaar part1 ceasefire",
+      "description": "Salaar: Part 1 – Ceasefire (transl. Commander) is a 2023 Indian Telugu-language epic action film written and directed by Prashanth Neel and produced by Vijay Kiragandur. ",
+      "genre": "Action",
+      "team": "Prashanth Neel",
+      "imageUrl": "https://imgs.search.brave.com/4G5XsrgNQ_auXOBtzYR0hjMu_2ocNlleUu2pJq0cM9o/rs:fit:860:0:0/g:ce/aHR0cHM6Ly8xODQ3/ODg0MTE2LnJzYy5j/ZG43Ny5vcmcvdGFt/aWwvbmV3cy9QcmFi/aGFzX1NhbGFhcjJf/MDMwMTI0XzItYzAy/LmpwZw",
+      "id": 1
+    },
+    {
+      "title": "Jawan",
+      "description": "Srk Movie",
+      "genre": "Drama",
+      "team": "Atlee",
+      "imageUrl": "https://imgs.search.brave.com/q_EJRB_WgqtnLDzK7IguWFIHMgtrEB_QNNvJ7YpRbbY/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93d3cu/d2lraWJpb2RhdGEu/Y29tL3dwLWNvbnRl/bnQvdXBsb2Fkcy8y/MDIzLzA4L0phd2Fu/LmpwZw",
+      "id": 2
+    },
+    {
+      "title": "Mangalavaram",
+      "description": "Mangalavaaram (transl. Tuesday) is a 2023 Indian Telugu-language psychological mystery thriller film written and directed by Ajay Bhupathi.",
+      "genre": "Thriller",
+      "team": "Ajay Bhupathi",
+      "imageUrl": "https://imgs.search.brave.com/DTKGIDYOJLA5gKwQZ1aCnc1nrtSt1BjszZKkPG2n9-M/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9hc3Nl/dHMudm94Y2luZW1h/cy5jb20vcG9zdGVy/cy9QX0hPMDAwMTA2/ODguanBn",
+      "id": 3
+    },
+    {
+      "title": "Animal",
+      "description": "Animal is a 2023 Indian Hindi-language action drama film directed and edited by Sandeep Reddy Vanga, who also co-wrote the screenplay with Pranay Reddy Vanga and Saurabh Gupta.",
+      "genre": "Drama",
+      "team": "Sandeep Reddy Vanga",
+      "imageUrl": "https://imgs.search.brave.com/K4y0jh3gHWxJf4vMZdQexoLVJme2tPyR8NLBDleIdiE/rs:fit:500:0:0/g:ce/aHR0cHM6Ly90aGVz/b3V0aGZpcnN0LmNv/bS93cC1jb250ZW50/L3VwbG9hZHMvMjAy/NC8wMS9BLXBvc3Rl/ci1vZi10aGUtZmls/bS1BbmltYWwtNzUw/eDM3NS5qcGc",
+      "id": 4
+    },
+    {
+      "title": "Hi Nanna",
+      "description": "Hi Nanna (transl. Hi Dad) is a 2023 Indian Telugu-language romantic drama film directed by Shouryuv in his directorial debut.",
+      "genre": "Romance",
+      "team": "Shouryuv",
+      "imageUrl": "https://imgs.search.brave.com/qfmSdBI6xHugUX35E3e02wN86ET6XXlU3LxA6rSOQ88/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9wb3N0/ZXIuZ3NjLmNvbS5t/eS8yMDIzLzIzMTIw/NF9IaU5hbm5hVGVs/dWd1X2JpZy5qcGc",
+      "id": 5
+    },
+    {
+      "id": "6136",
+      "title": "12th Fail",
+      "description": "12th Fail is a 2023 Indian Hindi-language biographical drama film produced, written and directed by Vidhu Vinod Chopra.",
+      "genre": "Drama",
+      "team": "vinod chopra",
+      "imageUrl": "https://imgs.search.brave.com/PzYqM0oid1r7CZXuQM_XXq0ijYzEWZ2bImkmLpmI6AU/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9jZG4u/MTIzdGVsdWd1LmNv/bS9jb250ZW50L3dw/LWNvbnRlbnQvdXBs/b2Fkcy8yMDIzLzEx/LzEydGhGYWlsLXJl/dmlldy5qcGc"
+    },
+    {
+      "id": "c5a0",
+      "title": "Dunki",
+      "description": "Dunki is a 2023 Indian Hindi-language comedy drama film based on \"donkey flight\", an illegal immigration technique. ",
+      "genre": "Comedy",
+      "team": "RajKumar Hirani",
+      "imageUrl": "https://imgs.search.brave.com/agBsgn4eHOdLWe-P8uldnB7ovtgnljPEZ0m4Pz3AKmo/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL00v/TVY1Qk16UTBORFJo/Tm1JdFl6bGxZUzAw/TkRkbExUazBZVGN0/WkRRNVltRmtZamRr/TkRjeVhrRXlYa0Zx/Y0dkZVFYVnlOVFl3/TXpBME1UTUAuanBn"
+    },
+    {
+      "id": "e3cc",
+      "title": "Kho Gaye Hum Kahan",
+      "description": "Kho Gaye Hum Kahan (Translated from Hindi: Where Have We Lost Ourselves?) is a 2023 Indian Hindi-language coming-of-age drama film directed by Arjun Varain Singh, in his directorial debut.",
+      "genre": "Romance",
+      "team": "Arjun Varain Singh",
+      "imageUrl": "https://imgs.search.brave.com/-y3TS6eC7AnYCRvtuQGisuwbSCYEXs8NCDANX-NwU6o/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL00v/TVY1Qll6Z3laall6/WXpndFpqRTVZUzAw/TlRGbUxXRTRPRGN0/TkdVMlpESmpNamN5/TlRWaFhrRXlYa0Zx/Y0dkZVFYVnlPREU1/TnpFM09URUAuanBn"
+    },
+    {
+      "id": "3ab0",
+      "title": "Pathala Bairavi",
+      "description": "Pathala Bhairavi (transl. The Goddess of the Netherworld) is a 1951 Indian fantasy film directed by K. V. Reddy who co-wrote the film with Pingali and Kamalakara Kameswara Rao.",
+      "genre": "Fantasy",
+      "team": "Ntr",
+      "imageUrl": "https://imgs.search.brave.com/GhT3Fj0TrqWdllxhqyCTTDoqSDCg1xtmiZkEsc3nH9M/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL00v/TVY1Qk9UVmlOalZr/TURBdFlUWm1OaTAw/TURFM0xXSTJZakV0/T1ROaU5UWTFaRGho/TURJMlhrRXlYa0Zx/Y0dkZVFYVnlOalEx/TURjeE56TUAuanBn"
+    },
+    {
+      "id": "e82d",
+      "title": "HarryPotter",
+      "description": "Harry Potter is a series of seven fantasy novels written by British author J. K. Rowling. The novels chronicle the lives of a young wizard, Harry Potter, and his friends Hermione Granger and Ron Weasley, all of whom are students at Hogwarts School of Witchcraft and Wizardry.",
+      "genre": "Fantasy",
+      "team": "JK Rowling",
+      "imageUrl": "https://imgs.search.brave.com/9ha1dkedyXv-nBIKqvO0y0vCbNhOru3F-ejHTYSrzSw/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL00v/TVY1Qk9UQTNNbVJt/WkRndE9XVTFOeTAw/WkRjNUxXRmtOMll0/TnpObFkyVXhabVkw/TjJJeVhrRXlYa0Zx/Y0dkZVFYVnlOVEl6/T1RrNU9ETUAuanBn"
+    },
+    {
+      "id": "7767",
+      "title": "Aquaman",
+      "description": "Aquaman is a 2018 American superhero film based on the DC character of the same name. Co-produced and distributed by Warner Bros. Pictures, it is the sixth film in the DC Extended Universe (DCEU). The film was directed by James Wan from a screenplay by David Leslie Johnson-McGoldrick and Will Beall. ",
+      "genre": "Fantasy",
+      "team": "aquaman team",
+      "imageUrl": "https://imgs.search.brave.com/-MLVBB3-z6ljvMmK3PtzU5uVaMm1ZCjLLuVDHK1ePbs/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMtbmEuc3NsLWlt/YWdlcy1hbWF6b24u/Y29tL2ltYWdlcy9J/LzkxOEZJUUl4czBM/LmpwZw"
+    },
+    {
+      "id": "fc63",
+      "title": "City of God",
+      "description": "City of God (Portuguese: Cidade de Deus) is a 2002 Portuguese-language epic crime film directed by Fernando Meirelles and co-directed by Kátia Lund. Bráulio Mantovani's script adapted from the 1997 novel of the same name written by Paulo Lins, but the plot is loosely based on real events.",
+      "genre": "Drama",
+      "team": "team",
+      "imageUrl": "https://imgs.search.brave.com/DwJGj1uWztafVI9DRJ4nQR_M-s3ZscJeK-SgRUVpULM/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL00v/TVY1Qk1HVTVPV0V3/WkRJdE5tTmtNQzAw/TnpabUxUazFZVGN0/TnpWaFpUSmpNMk5s/WlRWbVhrRXlYa0Zx/Y0dkZVFYVnlNVE14/T0RrMk9UVUAuanBn"
+    },
+    {
+      "id": "d193",
+      "title": "A Haunting in Venice",
+      "description": "A Haunting in Venice is a 2023 American mystery film produced and directed by Kenneth Branagh from a screenplay by Michael Green, loosely based on the 1969 Agatha Christie novel Hallowe'en Party. ",
+      "genre": "Thriller",
+      "team": "Kenneth Branagh from a screenplay by Michael Green",
+      "imageUrl": "https://imgs.search.brave.com/-NPfkh2u9PRssxPxY0tPl5j7bZnjTrSJz38s9SLxqcM/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9zMy5h/bWF6b25hd3MuY29t/L3N0YXRpYy5yb2dl/cmViZXJ0LmNvbS91/cGxvYWRzL21vdmll/L21vdmllX3Bvc3Rl/ci9hLWhhdW50aW5n/LWluLXZlbmljZS0y/MDIzL2xhcmdlX2Et/aGF1bnRpbmctaW4t/dmVuaWNlLW1vdmll/LXBvc3Rlci0yMDIz/LmpwZw"
+    },
+    {
+      "id": "d85a",
+      "title": "A Quiet Place",
+      "description": "A family struggles for survival in a world where most humans have been killed by blind but noise-sensitive creatures. They are forced to communicate in sign language to keep the creatures at bay.",
+      "genre": "Thriller",
+      "team": "PLace",
+      "imageUrl": "https://imgs.search.brave.com/fxEL4OcIwgzEp5Douz3kcoKBOB-_-ad2sOI7Q8-qRos/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL00v/TVY1QlpURTJNalJo/TXpVdE1UTXlPQzAw/TW1aaUxXSTJNbUl0/WmpCaVlUVmpNbU5p/TXpZeFhrRXlYa0Zx/Y0dkZVFWUm9hWEpr/VUdGeWRIbEpibWRs/YzNScGIyNVhiM0py/Wm14dmR3QEAuX1Yx/X1FMNzVfVVg1MDBf/Q1IwLDAsNTAwLDI4/MV8uanBn"
+    },
+    {
+      "id": "4218",
+      "title": "Poor Things",
+      "description": "Poor Things is a 2023 science fantasy black comedy film directed by Yorgos Lanthimos and written by Tony McNamara.",
+      "genre": "Drama",
+      "team": "Poor things",
+      "imageUrl": "https://imgs.search.brave.com/NSFiTBZHEz3MQ7JiEB8s9thl3JBS4PxdBToGOv5D7ks/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9ibG9v/ZHktZGlzZ3VzdGlu/Zy5jb20vd3AtY29u/dGVudC91cGxvYWRz/LzIwMjMvMDQvMDJZ/THB0NjctMTg5LXNj/YWxlZC5qcGc"
+    },
+    {
+      "id": "4933",
+      "title": "The Omega Man",
+      "description": "Biological warfare has wiped out the human race, leaving one man standing. Charlton Heston is the lone survivor from the plague, fighting off a cult of killer mutants in the deserted streets of Southern California. ",
+      "genre": "Sci-fi",
+      "team": "hollywood",
+      "imageUrl": "https://imgs.search.brave.com/_bMjcHtsrmvPHalPcbsHJM9Po4AhXC5kbwKFpaa3-Hs/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMtbmEuc3NsLWlt/YWdlcy1hbWF6b24u/Y29tL2ltYWdlcy9J/LzgxVlA0WEVBQnNM/LmpwZw"
+    },
+    {
+      "id": "7992",
+      "title": "Orange",
+      "description": "Orange is a 2010 Indian Telugu-language romantic comedy drama film written and directed by Bhaskar Natarajan. ",
+      "genre": "Romance",
+      "team": "Ram Charan",
+      "imageUrl": "https://imgs.search.brave.com/ZTvXAFMfpCJOz6hDvOkoO4WxOgjUi8K-MkTV5dxUHBg/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbi5i/bXNjZG4uY29tL2ll/ZGIvbW92aWVzL2lt/YWdlcy9tb2JpbGUv/dGh1bWJuYWlsL2xh/cmdlL29yYW5nZS1l/dDAwMDA1NTI3LTI0/LTAzLTIwMTctMTYt/MzktMzcuanBn"
+    },
+    {
+      "id": "3046",
+      "title": "Mirchi",
+      "description": "Mirchi (transl. Chilli) is a 2013 Indian Telugu-language action drama film written and directed by debutante Koratala Siva, and produced by UV Creations.",
+      "genre": "Drama",
+      "team": "Prabhas",
+      "imageUrl": "https://imgs.search.brave.com/3TBCephwTjQUcz-wSFhZi-R54vvlZ2Voy9LaJeYjwIs/rs:fit:500:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvZW4vdGh1bWIv/YS9hOC9NaXJjaGlf/ZmlsbV9wb3N0ZXIu/anBnLzUxMnB4LU1p/cmNoaV9maWxtX3Bv/c3Rlci5qcGc"
+    },
+    {
+      "id": "3b51",
+      "title": "Dilse",
+      "description": "Dil Se.. (lit. 'From the Heart..') is a 1998 Indian Hindi-language romantic thriller film written and directed by Mani Ratnam who produced it with Ram Gopal Varma and Shekhar Kapur.",
+      "genre": "Romance",
+      "team": "Srk",
+      "imageUrl": "https://imgs.search.brave.com/akLJf1vhM6RkKeobewRG4cAc6Be1TwOkEqTI2fVcGrM/rs:fit:500:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvZW4vdGh1bWIv/Ny83YS9EaWxfU2Vf/cG9zdGVyLmpwZy81/MTJweC1EaWxfU2Vf/cG9zdGVyLmpwZw"
+    },
+    {
+      "id": "cb5c",
+      "title": "Yeh Jawaani Hai Deewani",
+      "description": "Yeh Jawaani Hai Deewani (transl. This Youth is Crazy), also abbreviated as YJHD, is a 2013 Indian Hindi-language coming-of-age romantic comedy-drama film directed by Ayan Mukerji, written by Mukerji and Hussain Dalal, edited by Akiv Ali and produced by Karan Johar under Dharma Productions",
+      "genre": "Comedy",
+      "team": "Ranbir",
+      "imageUrl": "https://imgs.search.brave.com/_3RVzGNS3TGMFz3xkGoEmb5INSSSGS6kIc8jEvT51As/rs:fit:500:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvZW4vdGh1bWIv/MS8xNS9ZZWhfamF3/YW5pX2hhaV9kZWV3/YW5pLmpwZy81MTJw/eC1ZZWhfamF3YW5p/X2hhaV9kZWV3YW5p/LmpwZw"
+    },
+    {
+      "id": "f6e6",
+      "title": "Bharat Ane Nenu",
+      "description": "Bharat Ane Nenu (transl. I, Bharat) is a 2018 Indian Telugu-language political drama film written and directed by Koratala Siva, while D. V. V. Danayya produced it. ",
+      "genre": "Action",
+      "team": "Mahesh babu",
+      "imageUrl": "https://imgs.search.brave.com/GrSF8U2pHPfAA5C_62YY_t_DMAdoPCrxGhKcfne8QHY/rs:fit:500:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvZW4vdGh1bWIv/Ni82OC9CaGFyYXRf/QW5lX05lbnVfcG9z/dGVyLmpwZy81MTJw/eC1CaGFyYXRfQW5l/X05lbnVfcG9zdGVy/LmpwZw"
+    }
+  ]
+}

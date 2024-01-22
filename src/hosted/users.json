@@ -1,0 +1,53 @@
+{
+  "users": [
+    {
+      "id": "f9fe",
+      "username": "newuser",
+      "email": "yasaswini5nunabarthi@gmail.com",
+      "password": "newuser",
+      "usertype": "USER",
+      "favgenre": "Fantasy"
+    },
+    {
+      "id": "1656",
+      "username": "pranathi",
+      "email": "kavuluri.pranathi@cubastion.com",
+      "password": "$2a$10$xR/tPyRXXYTpxEvZ85BvLO0gGqoUg/wuN6WrgE32dXu3ez561GGwW",
+      "usertype": "USER",
+      "favgenre": "Fantasy"
+    },
+    {
+      "id": "d0a7",
+      "username": "icloud",
+      "email": "kavuluripranathi@icloud.com",
+      "password": "$2a$10$tH8NLelmpSIwW5Ncmo676uH74zCPYyioQypryLbQuFAxGtU1Bx.Re",
+      "usertype": "USER",
+      "favgenre": "Crime"
+    },
+    {
+      "id": "55b3",
+      "username": "gmail",
+      "email": "kavuluripranathi@gmail.com",
+      "password": "$2a$10$e.C4PeCSqXFqZEvtk/azJeYjWwgehm.06z1Pt36uAeL9LlsV73mTa",
+      "usertype": "ADMIN",
+      "favgenre": "Fantasy"
+    },
+    {
+      "id": "9282",
+      "username": "bokssain",
+      "email": "hussain786msk@gmail.com",
+      "password": "$2a$10$a81dY3CU4UmezVn6fhIFFubyof1QNUR2kVYx9Td4gx09iTSW7DkjW",
+      "usertype": "USER",
+      "favgenre": "Drama"
+    },
+    {
+      "id": "2167",
+      "username": "sathvik",
+      "email": "tcs14@iitbbs.ac.in",
+      "password": "$2a$10$APSpv7H5earkYWjNrbFp7Os264v3sAvI.aNt2vAmUjV1jj.mdGl02",
+      "usertype": "USER",
+      "favgenre": "Thriller"
+    }
+    
+  ]
+}
