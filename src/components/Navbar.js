@@ -39,7 +39,7 @@ const Navbar = () => {
     
   return (
     <nav className="navbar">
-      <p className='name' style={{marginLeft:"30px",paddingBottom:"5px",marginBottom:"15px"}}>IMDb</p>
+      <p className='name' style={{marginLeft:"30px",paddingBottom:"5px",marginBottom:"15px", cursor:"pointer"}} onClick={()=>navigate('/home')}>IMDb</p>
       <ul className="nav-list" >
         {
             <div className="input-container" >
