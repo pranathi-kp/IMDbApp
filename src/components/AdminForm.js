@@ -48,6 +48,7 @@ const AdminForm = () => {
         team: '',
         imageUrl: '',
       });
+      alert("Movie Added!");
     }
   };
   if (!isAdmin) {
