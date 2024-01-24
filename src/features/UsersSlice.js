@@ -7,7 +7,7 @@ const initialState = {
   error: null,
   profile:{}
 };
-
+const apiUrl = process.env.REACT_APP_API_URL;
 const hashPassword = async (password) => {
   const hashedPassword = await bcrypt.hash(password, 10);
   return hashedPassword;
@@ -19,7 +19,7 @@ const hashPassword = async (password) => {
     ...userData,
     password: hashedPassword,
   };
-  const response = await axios.post('http://localhost:8000/users', modifiedUserData, { 
+  const response = await axios.post(`${apiUrl}/users`, modifiedUserData, { 
     headers: {
       'Content-Type': 'application/json',
     },

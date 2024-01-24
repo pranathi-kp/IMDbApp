@@ -12,10 +12,11 @@ import { addTask } from './features/UsersSlice';
 import { addMovie, getItems } from './features/MoviesSlice';
 import Navbar from './components/Navbar';
 function App() {
+  const apiUrl = process.env.REACT_APP_API_URL;
   const isAdmin = useSelector((store)=>store.modal.isAdmin);
   const dispatch = useDispatch();
-  const urlusers = 'http://localhost:8000/users';
-  const urlmovies = 'http://localhost:8001/movies';
+  const urlusers =  `${apiUrl}/users`;
+  const urlmovies = `${apiUrl}/movies`;
   const {users} = useSelector((store)=>store.user);
   const  posted = useSelector((store)=>store.movie.posted);
   const movieslist = useSelector((store)=>store.movie.movies);

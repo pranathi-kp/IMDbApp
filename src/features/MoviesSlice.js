@@ -20,12 +20,14 @@ const initialState = {
     filter:false,
 }
 
+const apiUrl = process.env.REACT_APP_API_URL;
+
 const addMovieAsync = createAsyncThunk('movie/addMovie', async (movieinfo, thunkAPI) => {
   try {
     const reqinfo = {...movieinfo};
     const toExcluse = ['mail'];
     toExcluse.forEach((key)=>delete reqinfo[key]); 
-    const response = await axios.post('http://localhost:8001/movies', reqinfo, {
+    const response = await axios.post(`${apiUrl}/movies`, reqinfo, {
       headers: {
         'Content-Type': 'application/json',
       },
@@ -74,7 +76,7 @@ const addReviewAsync = createAsyncThunk('movie/addReview', async (reviewinfo, th
     const reqinfo = {...reviewinfo};
     const toExcluse = ['mail', 'name'];
     toExcluse.forEach((key)=>delete reqinfo[key]); 
-    const response = await axios.post('http://localhost:8002/ratings', reqinfo, { 
+    const response = await axios.post(`${apiUrl}/ratings`, reqinfo, { 
       headers: {
         'Content-Type': 'application/json',
       },
@@ -103,7 +105,7 @@ const addReviewAsync = createAsyncThunk('movie/addReview', async (reviewinfo, th
 };
 });
 
-const url = "http://localhost:8001/movies"
+const url = `${apiUrl}/movies`;
 const getItems = createAsyncThunk(
   'movie/getItems',
   async (name, thunkAPI) => {
