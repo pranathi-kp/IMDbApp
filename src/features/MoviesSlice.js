@@ -18,6 +18,7 @@ const initialState = {
     reviewname:'',
     search:false,
     filter:false,
+    getloading:false
 }
 
 const apiUrl = process.env.REACT_APP_API_URL;
@@ -218,17 +219,17 @@ const moviesSlice = createSlice({
             state.rerror = action.error.message;
           })
           .addCase(getItems.pending, (state) => {
-            state.isLoading = true;
+            state.getloading = true;
           })
           .addCase(getItems.fulfilled, (state, action) => {
             // console.log(action);
             console.log("slice,", action.payload);
-            state.isLoading = false;
+            state.getloading = false;
             state.movies = action.payload;
           })
           .addCase(getItems.rejected, (state, action) => {
             console.log(action);
-            state.isLoading = false;
+            state.getloading = false;
           });
       },
 })

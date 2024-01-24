@@ -5,7 +5,7 @@ import ReviewForm from "./ReviewForm";
 const Home = () => {
 
     
-  const {movies,foundmovie, filteredmovies, reviewflag, search, filter} = useSelector((store) => store.movie);
+  const {movies,foundmovie, filteredmovies, reviewflag, search, filter, getloading} = useSelector((store) => store.movie);
   
   const isLogin = useSelector((store) => store.modal.islogin);
   const isAdmin = useSelector((store)=> store.modal.isAdmin);
@@ -18,7 +18,11 @@ const Home = () => {
     alert("No Matches found");
     dispatch(changeflag());
   }, [search, filter]);
-  if (movies.length === 0) {
+
+  if(getloading===true){
+    return <h3> Please wait! Loading..</h3>
+  }
+  else if (movies.length === 0) {
     return <h1>No Data</h1>;
   }
 
